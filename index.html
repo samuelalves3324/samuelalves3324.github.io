@@ -4,42 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Portifólio Web</title>
+    <style>
+        body {
+            background-color: #EAEAEA;
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            font-weight: 500px;
+            margin-top: 5px;
+            
+        }
+        #name {
+            text-align: center;
+        }
+
+        #bio {
+            font-family: inherit;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .strongs{
+            color: crimson;
+        }
+        .button{
+            margin-top: 5px;
+            padding: 10px 15px;
+        }
+        #picture{
+            margin: auto;
+            display: block;
+            width: 400px;
+            border-radius: 100%;
+        }
+        li{
+            margin-top: 5px;
+            padding: 10px 15px;
+        }
+    </style>
 </head>
 <body>
     <h1>Portifólio Web</h1>
 
-    Indice:
+    <h3>Indice:</h3>
     <ul> 
-        <a href="#nome">
-            <li>Eu</li>
+        <a href="#name">
+            <li class="button">Eu</li>
         </a>
         <a href="#bio">
-            <li>Biografia</li>
+            <li class="button">Biografia</li>
         </a>
         <a href="#skills">
-            <li>Minhas habilidades</li>
+            <li class="button">Minhas habilidades</li>
         </a>
         <a href="#blog">
-            <li>Meu blog preferido</li>
+            <li class="button">Meu blog preferido</li>
         </a>
     </ul>
 
  
-    <h4 id="nome">Samuel Alves de Lisboa </h4>
+    <h2 id="name">Samuel Alves de Lisboa </h2>
 
-    <img id="samuel" src="IMG_0203.jpg" alt="foto de homem em frente ao espelho" width="200px">
+    <img id="picture" src="IMG_0203.jpg" alt="foto de homem em frente ao espelho">
     
-    <p id="bio"><em>Olá, meu nome é  <strong><a href="#samuel">Samuel</a>  </strong> , sou natural de Irai de Minas/Mg.<br> Sou uma pessoa muito apaixonada por tecnologia, especialmente games!<br> No momento sou estudante de Desenvolvimento Web na trybe!</em></p>
+    <p id="bio"><em>Olá, meu nome é  <strong><a href="#samuel" class="strongs">Samuel</a></strong>, sou natural de <strong ><a href="https://www.google.com/search?q=irai+de+minas&sxsrf=ALiCzsZLwInZ0faMsi6_2JkoExZLbRa4Ww:1663278206932&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjq7L6V4pf6AhXkppUCHbUBCqgQ_AUoA3oECAIQBQ&biw=1366&bih=663&dpr=1" target="_blank" class="strongs">Iraí de Minas</a></strong> e como o próprio nome já diz, sou mineiro uai!<br> Sou uma pessoa muito apaixonada por tecnologia, especialmente games!<br> No momento sou estudante de Desenvolvimento Web na trybe!</em></p>
 
-    <p id="skills">Minhas principais habilidades são:</p>       
+    <h3 id="skills">Minhas principais habilidades são:</h3>       
     <ul>
         <li>Paciente</li>
         <li>Atencioso</li>
+        <li>Empático</li>
         <li>Estou sempre aberto a feedbacks</li>
     </ul>
 
-    <p id="blog">Meu blog preferido é o <a href="https://adrenaline.com.br/" target="_blank">Adrenaline</a>, gosto muito de acompanhar hardwares novos de computadores que são lançados, como: placa de vídeo e processadores.</p>
+    <p id="blog" >Meu blog preferido é o <a href="https://adrenaline.com.br/" target="_blank" class="strongs">Adrenaline</a>, gosto muito de acompanhar hardwares novos de computadores que são lançados, como: placa de vídeo e processadores.</p>
 
 </body>
 </html>
