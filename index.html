@@ -6,51 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portifólio Web</title>
+    <title>Portifólio</title>
 </head>
 <body>
-    <h1 class="title">Portifólio Web</h1>
-
-    <h3>Indice:</h3>
-    <ol> 
-        <a href="#name">
-            <li class="button">Eu</li>
-        </a>
-        <a href="#bio">
-            <li class="button">Biografia</li>
-        </a>
-        <a href="#skills">
-            <li class="button">Minhas habilidades</li>
-        </a>
-        <a href="#blog">
-            <li class="button">Meu blog preferido</li>
-        </a>
-    </ul>
-
- 
-    <div>
-         <h2 id="name">Samuel Alves de Lisboa </h2>
-    </div>
-
-    <div> 
-        <img id="picture" src="IMG_0203.jpg" alt="foto de homem em frente ao espelho">
-    </div>
-    
-    <div>
-        <p id="bio"><em>Olá, meu nome é  <strong><a href="#samuel" class="strongs">Samuel</a></strong>, sou natural de <strong ><a href="https://www.google.com/search?q=irai+de+minas&sxsrf=ALiCzsZLwInZ0faMsi6_2JkoExZLbRa4Ww:1663278206932&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjq7L6V4pf6AhXkppUCHbUBCqgQ_AUoA3oECAIQBQ&biw=1366&bih=663&dpr=1" target="_blank" class="strongs">Iraí de Minas</a></strong> e como o próprio nome já diz, sou mineiro uai!<br> Sou uma pessoa muito apaixonada por tecnologia, especialmente games!<br> No momento sou estudante de Desenvolvimento Web na trybe!</em></p>
-    </div>
-
-    <h3 id="skills">Minhas principais habilidades são:</h3>       
-    <ul>
-        <li>Paciente</li>
-        <li>Atencioso</li>
-        <li>Empático</li>
-        <li>Estou sempre aberto a feedbacks</li>
-    </ul>
-
-    <p id="blog" >Meu blog preferido é o <a href="https://adrenaline.com.br/" target="_blank" class="strongs">Adrenaline</a>, gosto muito de acompanhar hardwares novos de computadores que são lançados, como: placa de vídeo e processadores.</p>
-
+ <header class="header">
+    <h1 class="title">Samuel</h1>
+    <nav class="nav">
+        <a href="#" class="nav-items">Home</a>
+        <a href="#biografia" class="nav-items">Biografia</a>
+        <a href="#habilidades" class="nav-items">Habilidades</a>
+        <a href="#contato" class="nav-items">Contato</a>
+    </nav>
+ </header>
+ <main class="main">
+    <section id="home">
+        <div>
+            <h2>Olá, meu nome é Samuel</h2>
+            <p>Sou desenvolvedor web</p>
+        </div>
+        <img src="/1.jpg" alt="" id="eu">
+    </section>
+    <section id="biografia">
+        <h2>Quem sou eu?</h2>
+        <p>Meu nome é Samuel Alves de Lisboa, tenho 18 anos sou natural do interior de Minas Gerais. Desde novo sempre fui apaixonado por tecnologia, cresci jogando e mexendo com internet.</p>
+        <p>Este ano decidi me dedicar aos estudos de desenvolvimento web para realizar meu sonho de trabalhar com computador.</p>
+    </section>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Jest</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Rede Sociais</h2>
+        <i class="bi bi-whatsapp">(34) 99919-0620</i>
+        <a href="https://www.instagram.com/samuel_alves33241/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram">@samuel_alves33241</i></a> 
+        <a href="https://www.linkedin.com/in/samuel-alves-de-lisboa/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin">samuel-alves-de-lisboa</i></a>
+        <a href="https://github.com/samuelalves3324" target="_blank" rel="noopener noreferrer"><i class="bi bi-github">samuelalves3324</i></a>
+    </section>
+ </main>
 </body>
 </html>
