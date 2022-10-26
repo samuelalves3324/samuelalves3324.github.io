@@ -114,8 +114,14 @@ i {
     font-size: 45px;
 }
 
-#contato i {
+#contato img {
+    width: 40px;
+    margin-top: 10px;
+}
+
+#contato a {
     font-size: 25px;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px){
@@ -174,8 +180,14 @@ i {
         font-size: 28px;
     }
     
-    #contato i {
+    #contato img {
+        width: 20px;
+        margin-top: 5px;
+    }
+    
+    #contato a {
         font-size: 18px;
+        align-items: center;
     }
    
 }
